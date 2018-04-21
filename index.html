@@ -111,7 +111,17 @@
       </div>
 
       <div class='row'>
-        <div class='col-lg-6 col-md-6 titulo-cartelera right-column left-column'><p class="services-text">En nuestro cine te ofrecemos los siguientes servicios para brindarte la mejor diversión y que disfrutes al máximo:</p>
+        <div class='col-lg-6 col-md-6 titulo-cartelera right-column left-column'>
+            <header class="text-capitalize text-center titulo-text">servicios</header>
+        </div>
+        <div class='col-lg-6 col-md-6 col-sm-12 col-xs-12 titulo-cartelera'>
+            <header class="text-capitalize text-center titulo-text">regístrate</header>
+        </div>
+      </div>
+
+      <div class='row'>
+        <div class='col-lg-6 col-md-6 movies-row right-column left-column'>
+          <p class="services-text">En nuestro cine te ofrecemos los siguientes servicios para brindarte la mejor diversión y que disfrutes al máximo:</p>
           <dl class="dl-horizontal">
             <dt class="services-text">Candy Store</dt>
             <dd class="services-text">Dulces, palomitas, bebidas y más</dd>
@@ -126,11 +136,54 @@
           </dl>
           <header class="text-center text-uppercase welcome-title">¡te esperamos!</header>
         </div>
-        <div class='col-lg-6 col-md-6 col-sm-12 col-xs-12 titulo-cartelera'></div>
-      </div>
-      <div class='row'>
-        <div class='col-lg-6 col-md-6 movies-row right-column left-column'></div>
-        <div class='col-lg-6 col-md-6 col-sm-12 col-xs-12 movies-row'></div>
+
+        <div class='col-lg-6 col-md-6 col-sm-12 col-xs-12 movies-row'>
+          <form role="form">
+            <fieldset>
+              <div class="form-group text-center">
+                <legend class="user_data">
+                  Datos personales
+                </legend>
+
+                <input type="text" id="Nombre" name="Nombre" placeholder="Nombre completo" class="form-control input-element">
+
+                <input type="email" 1d="email" name="email" placeholder="Correo Electrónico" class="form-control input-element">
+
+                <input type="tel" 1d="teléfono" name="teléfono" placeholder="Teléfono" class="form-control input-element">
+
+                <input type="ciudad" 1d="ciudad" name="Ciudad" placeholder="Ciudad" class="form-control input-element">
+
+              </div>
+              <div class="form-group text-center">
+                <legend class="user_data">
+                  Elige tus categorías favoritas
+                </legend>
+                <input type="checkbox" id="terror" name="terror">
+                    <label for="terror" class="label-class">Terror</label>
+                <input type="checkbox" id="comedia" name="comedia">
+                    <label for="comedia" class="label-class">Comedia</label>
+                <input type="checkbox" id="suspenso" name="suspenso">
+                    <label for="suspenso" class="label-class">Suspenso</label>
+                <input type="checkbox" id="acción" name="acción">
+                    <label for="acción" class="label-class">Acción</label>
+                <input type="checkbox" id="drama" name="drama">
+                    <label for="drama" class="label-class">Drama</label>
+              </div>
+              <div class="text-center">
+                <legend class="user_data">
+                  ¿Desea recibir correo de nuestro sitio?
+                </legend>
+                <input type="radio" id="Sí" name="Sí">
+                  <label for="Sí" class="label-class">Sí</label>
+                <input type="radio" id="No" name="No">
+                  <label for="No" class="label-class">No</label>
+              </div>
+              <div class="text-center">
+                <input type="button" class="btn btn-save btn-primary form-control" value="Guardar">
+              </div>
+            </fieldset>
+          </form>
+        </div>
       </div>
     </div>
   </body>
