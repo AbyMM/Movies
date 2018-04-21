@@ -1,0 +1,153 @@
+/* Clase para darle estilos al body */
+.cinema-body {
+  background: url("../img/popcorn.jpg") center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* Clase para darle estilos a la barra de navegacion */
+.navbar-inverse {
+  background: #082D5E;
+  min-height: 10%;
+  border: none;
+  opacity: 0.95;
+}
+
+/* Clase para darle estilos al logo inicial */
+.logo-img{
+  width: 5%;
+  margin-left: 2%;
+}
+
+/* Clase para darle estilos al contenedor principal */
+.container-fluid {
+  margin-top: 64px;
+}
+
+/* Clase para darle estilos al jumbotron */
+.jumbotron {
+  background: url("../img/projector.jpg");
+  min-height: 500px;
+  border-radius: 0px !important;
+  margin-bottom: 0px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* Clase para darle estilos a la etiqueta contenedora de los encabezados/titulos */
+.titulo-cartelera {
+  min-height: 45px;
+  background: #082D5E;
+  opacity: 0.95;
+}
+
+.titulo-text{
+  font-size: 18px;
+  font-weight: bolder;
+  color: white;
+  padding: 10px;
+}
+
+/* Clase para darle estilos al titulo de bienvenida*/
+.welcome-title{
+color: white;
+margin-right: 10px;
+}
+
+.jumbotron-img{
+  margin-top:20px;
+}
+
+.jumbotron-text{
+  font-size: 16px;
+  color: white;
+  margin-top: 20px;
+}
+
+.redes-sociales{
+  margin-top: 20px;
+}
+
+.img-social{
+  height: 40px;
+  width: 40px;
+}
+
+/* Clase para darle estilos a las filas y/o a columas que contienes filas */
+.movies-row {
+  background: #00678E;
+  min-height: 350px;
+  padding-left: 15px;
+  padding-right: 15px;
+  opacity: 0.8
+}
+
+.movie-title{
+  color: white;
+}
+
+.img-movies{
+  height: 260px;
+  padding: 6px;
+  margin-top: 22px;
+}
+
+/* Clase para darle estilos a las columnas*/
+.movies-column {
+  margin-top: 5px;
+  background: #00678E;
+  min-height: 330px;
+  border: 1px dashed #FFFFFF;
+}
+
+/* Clase para darle estilos a la columna de la izquierda y agregar borde a la derecha */
+.left-column {
+  border-right: 1px dashed #FFFFFF;
+}
+
+.row-centered {
+  text-align:center;
+}
+
+.services-text {
+  color: #FFFFFF;
+  margin-top: 13px;
+}
+
+.col-centered {
+  display:inline-block;
+  float:none;
+}
+
+@media (max-width: 770px) {
+  /* Clase para ocultar componentes HTML */
+  .right-column {
+    display: none;
+  }
+
+  .movies-row {
+    min-height: 250px;
+  }
+
+  .movies-column {
+    min-height: 230px;
+  }
+
+  .jumbotron {
+    min-height: 400px;
+  }
+
+  .jumbotron-img{
+    margin-top: 20px;
+  }
+
+.titulo-cartelera{
+  font-size: 15px;
+}
+
+  h2{
+    font-size: 22px;
+  }
+}
